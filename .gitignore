@@ -1,2 +1,6 @@
 *.exe
 *.o
+*.exe
+!spec/*.exe
+*.o
+!spec/*.o
