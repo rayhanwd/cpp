@@ -1,4 +1,4 @@
 *.exe
-!spec/*.exe
+!spec*.exe
 *.o
-!spec/*.o
+!spec*.o
