@@ -1,7 +1,13 @@
 #include <iostream>
 using namespace std;
+int  add(int c, int d){
+int sum;
+sum = c + d;
+return sum;
+}
+
 int main(){
-int x,y,add();
+int x,y;
 
 cout << "Type a number: ";
 cin >> x;
@@ -13,8 +19,3 @@ cout << "Sum is: " << sum;
 return 0;
 }
 
-int  add(int x, y){
-int sum;
-sum = x + y;
-return sum;
-}
